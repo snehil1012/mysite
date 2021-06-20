@@ -1,0 +1,180 @@
+body{
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p{
+    line-height: 2;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    
+}
+
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.middle-container{
+    padding-top: 80px;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    color: #EAF6F6;
+    padding: 50px 0 20px;
+  
+}
+
+.profile-picture{
+    max-width: 10%;
+    border-radius: 50%;
+}
+
+.profile-content{
+    line-height: 2;
+    color: #40514E;
+    width: 30%;
+    margin: auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    
+}
+
+.my-skills-img1{
+    max-width: 17%;
+    border-radius: 5%;
+    float: left;
+    margin-right: 30px;
+}
+
+.my-skills-img2{
+    max-width: 17%;
+    border-radius: 5%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-content1{
+    
+}
+
+.skill-content2{
+    
+}
+
+.contact-message{
+    width: 40%;
+    margin: auto;
+}
+
+.footer-link{
+    position: relative;
+    color: #11999E;
+    text-decoration: none;
+    margin: auto 25px;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.copyright-text{
+    margin: 0;
+    padding: 20px;
+    
+}
+
+.hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 5px;
+    height: 0px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.btn {
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #30E3CA, #11999E);
+    background-image: -moz-linear-gradient(top, #30E3CA, #11999E);
+    background-image: -ms-linear-gradient(top, #30E3CA, #11999E);
+    background-image: -o-linear-gradient(top, #30E3CA, #11999E);
+    background-image: -webkit-gradient(to bottom, #30E3CA, #11999E);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 4px;
+  /*  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000; */
+    border: solid #11999E 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 70px;
+ }
+ 
+ .btn:hover {
+    border: solid #11999E 1px;
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #11999E, #30E3CA);
+    background-image: -moz-linear-gradient(top, #11999E, #30E3CA);
+    background-image: -ms-linear-gradient(top, #11999E, #30E3CA);
+    background-image: -o-linear-gradient(top, #11999E, #30E3CA);
+    background-image: -webkit-gradient(to bottom, #11999E, #30E3CA);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 6px;
+    text-decoration: none;
+ }
+
+
